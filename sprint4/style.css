@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #4584b6;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1; /* sirve para poner la capa encima de todo*/
+}
+header h1{
+    color: white;
+    border: 6px solid white;
+    border-radius: 30px;
+    padding: 12px;
+    display: inline-block;
+    font-size: 40px;
+}
+#portada {
+    max-width: 100%;
+}
+.banner {
+    position: relative;
+}
+.welcome {
+    position: absolute;
+    left: 0; /*margen*/
+    top: 30%; /*margen*/
+    background-color: #ffde57;
+    color: #4584b6;
+    padding: 30px;
+}
+.welcome h2{
+    font-size: 40px;
+}
+.welcome h2 span{
+    font-size: 1.5em; /*le hace 1.5 mas grande que la etiqueta padre*/
+}
+.main-nav{
+    background-color: #646464;
+    padding: 15px;
+}
+.main-nav ul{
+    white-space: nowrap; /*que no salte la barra de links*/
+    margin: 0 auto;
+    max-width: 80%;
+}
+.main-nav ul li{
+    display: inline-block; /*se pone en linea todo*/
+    width: 25%;
+    font-size: 24px;
+    text-align: center;
+}
+.main-nav ul li a{
+    color: #ffde57;
+    font-weight: 600;
+    text-decoration: none;
+}
+.main-section{
+    margin: 50px auto;
+    max-width: 100%;
+    padding: 0 10%; /* margen como sangria*/
+
+}
+.main-section article h2{
+    font-size: 48px;
+    text-align: center;
+}
+.main-section article p{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 25px;
+}
+.images{
+    display: grid;/* tabla*/
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+}
+.images img{
+    width: 100%; /*utilizar imagenes del mismo tamaño sino usar widht y height con px*/
+    margin: auto;
+    border: 1px solid #646464;
+}
+footer{
+    background-color: #4584b6;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+}

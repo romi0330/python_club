@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(219, 235, 235);
+}
+header {
+    background-color: red;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1; 
+    font-family: 'Fjalla One', sans-serif;
+}
+header h1{
+    border: 2px solid white;
+    display: inline-block;
+    font-size: 40px;
+}
+header h5{
+    margin-top: -25px;
+    letter-spacing: 12px;
+    font-size: 6px;
+}
+#portada {
+    max-width: 100%;
+}
+.banner {
+    position: relative;
+    text-align: center;
+}
+.banner div h2{
+    position: absolute;
+    top: 75%;
+    font-size: 8vw;
+    font-family: 'Bangers', sans-serif;
+    letter-spacing: 3vw;
+    color: rgb(10, 10, 74);
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.01vw;
+    margin: auto;
+    left: 22vw;
+}
+.main-nav{
+    background-color: red;
+    padding: 1vw;
+    font-size: 3vh;
+}
+.main-nav ul{
+    white-space: nowrap; 
+    margin: 0 auto;
+}
+.main-nav ul li{
+    display: inline-block; 
+    width: 25%;
+    text-align: center;
+}
+.main-nav ul li a{
+    color: rgb(10, 10, 74);
+    font-weight: 600;
+    text-decoration: none;
+}
+.wrapper{
+    width: 83vw;
+    padding: 5vw 5vh;
+}
+.wrapper img{
+    max-width: 30vw;
+    float: left;
+    margin-right: 2vw;
+    border-radius: 5%;
+}
+.wrapper div h2{
+    margin-top: auto;
+    font-size: 2vw;
+}
+.wrapper div p{
+    font-size: 1.25vw;
+    text-align: justify;
+}
+.images{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2vw;
+    padding: 2vw 5vw;
+}
+.images img{
+    width: 100%; 
+    margin: auto;
+    border: 0.5vw solid #646464;
+}
+form h6{
+    padding-left: 6vw;
+    margin-bottom: 1vw;
+    font-size: 1.8vw;
+    font-family: 'Zilla Slab', sans-serif;
+
+}
+form textarea{
+    width: 90%;
+    margin-left: 5vw;
+    height: 0.1vh;
+    padding: 8vw 8vw;
+    box-sizing: border-box;
+    border: 0.2vw solid #ccc;
+    border-radius: 4vw;
+    background-color: #e88383;
+}
+form button{
+    size: 1.5vw;
+    margin-left: 85%;
+    padding: 1vh 1vw;
+    border-radius: 1vw;
+    border-color: #d24747;
+    font-family: 'Zilla Slab', sans-serif;
+    margin-bottom: 1vw;
+}
+.autor{
+    font-size: 1.8vw;
+    font-family: 'Zilla Slab', sans-serif;
+    padding-left: 6vw;
+}
+.autor h3{
+    color: #d24747;
+    margin-bottom: 0;
+}
+.autor h5{
+    margin-top: 0;
+}
+footer{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 1vw;
+    font-size: 1.2vw;
+}
+footer img{
+    width: 2%;;
+}
